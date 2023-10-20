@@ -5,16 +5,11 @@
       "type": "motoko"
     },
     "token_assets": {
-      "dependencies": [
-        "token"
-      ],
+      "dependencies": ["token"],
       "frontend": {
         "entrypoint": "src/token_assets/src/index.html"
       },
-      "source": [
-        "src/token_assets/assets",
-        "dist/token_assets/"
-      ],
+      "source": ["src/token_assets/assets", "dist/token_assets/"],
       "type": "assets"
     }
   },
